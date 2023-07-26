@@ -39,7 +39,7 @@ function rot13(encodedStr) {
 			}
 	let temp=""
 	for(let j=0;j<decodedArr.length;++j){
-		temp+=decodedArr[i];
+		temp+=decodedArr[j];
 	}
   return temp; //return decodedArr
 }
