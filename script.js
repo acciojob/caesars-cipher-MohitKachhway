@@ -37,7 +37,11 @@ function rot13(encodedStr) {
 			for(let i=0;i<encodedStr.length;++i){
 				decodedArr[i]=lookup[encodedStr[i]];
 			}
-  return decodedArr; //return decodedArr
+	let temp=""
+	for(let j=0;j<decodedArr.length;++j){
+		temp+=decodedArr[i];
+	}
+  return temp; //return decodedArr
 }
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
